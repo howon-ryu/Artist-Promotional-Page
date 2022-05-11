@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.navCenter {
+  flex: 6;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navItem {
+  text-decoration: none;
+  margin-top: 30px;
+  margin-right: 40px;
+  font-size: 28px;
+  font-weight: 300;
+  color: gray;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+}

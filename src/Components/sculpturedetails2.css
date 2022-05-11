@@ -1,0 +1,23 @@
+.f_container {
+  display: flex;
+  height: 700px;
+  width: 80%;
+  margin: auto;
+}
+
+.img {
+  background-color: grey;
+  margin-left: 20%;
+  margin-top: 5%;
+  width: 400px;
+  height: 400px;
+}
+
+.down {
+  margin-top: 150px;
+}
+
+.setting {
+  margin-top: 5%;
+  margin-left: 10%;
+}
