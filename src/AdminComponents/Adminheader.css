@@ -1,0 +1,25 @@
+.header {
+  margin-top: 60px;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.headerTitle {
+  position: absolute;
+  top: 13%;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.headerImg {
+  width: 100%;
+  height: 470px;
+  margin-top: 80px;
+  object-fit: cover;
+}

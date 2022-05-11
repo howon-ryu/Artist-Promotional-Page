@@ -1,0 +1,100 @@
+.contactset {
+  border-style : solid;
+  padding: 10px;
+}
+
+.letter {
+  color: gray;
+}
+
+.sideimg {
+  border-style : solid;
+  
+  
+  float : left;
+  
+  
+}
+
+
+
+.adminqw{
+  float:left;
+  flex:1;
+  height : auto;
+  margin-left : 15%;
+  margin-top : 100px;
+  max-width : 500px;
+}
+.qw>img{
+    position : relative;
+    width : 100%;
+    flex:1;
+    
+}
+.adminconbtn{
+  margin-top : 5px;
+  margin-left: 10px;
+  position : absolute;
+  font-size : 30px;
+  border : 1px;
+}
+.adminconbtn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.userscomment{
+  padding-top : 100px;
+  position : relative;  
+  margin-left: 45%;
+  white-space: pre-wrap;
+  /* border-style:solid; */
+  
+}
+
+@media(max-width:1550px){
+  .contactset {
+    border-style : solid;
+    padding: 10px;
+  }
+  
+  .letter {
+    color: gray;
+  }
+  
+  .sideimg {
+    border-style : solid;
+    
+    
+    float : left;
+    
+    
+  }
+  
+  
+  
+  .adminqw{
+    float:left;
+    flex:1;
+    height : auto;
+    margin-left : 10%;
+    margin-top : 100px;
+    max-width : 400px;
+
+  }
+  .adminqw>img{
+
+      width : 100%;
+      flex:1;
+      
+  }
+
+  .userscomment{
+    padding-top : 100px;
+    position : relative;  
+    margin-left: 45%;
+    white-space: pre-wrap;
+    
+  }
+
+}

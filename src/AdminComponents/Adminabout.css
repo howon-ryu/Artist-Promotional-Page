@@ -1,0 +1,73 @@
+.adminaboutpic {
+  float: right;
+  margin-right: 23%;
+  width : 500px;
+  height: auto;
+  
+}
+.adminaboutpic >img{
+  position: relative;
+  width : 100%;
+}
+.adminaboutall {
+  margin-top: 150px;
+}
+
+.adminim {
+  
+  
+  width : 440px;
+  margin-left: 23%;
+  width : 430px;
+}
+.btn1 {
+  
+  margin-top: 10px;
+  position: absolute;
+  font-size: 30px;
+  border: 1px;
+}
+.btn1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutme{
+  
+  width : 430px;
+
+}
+.details{
+  
+  width : 430px;
+}
+.savebtn{
+  position: absolute;
+  float : right;
+  
+  
+  margin-left : 370px;
+}
+
+@media(max-width:1550px){
+
+  .adminaboutpic {
+    float : right;
+    margin-right: 18%;
+    max-width : 420px;
+  }
+  
+  .adminaboutall {
+    margin-top: 150px;
+  }
+  
+  .adminim {
+    padding-top: 10px;
+  
+    margin-left: 18%;
+  }
+  textarea
+  {
+    width : 80%;
+  }
+}

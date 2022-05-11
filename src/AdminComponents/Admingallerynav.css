@@ -1,0 +1,32 @@
+.gnavbar {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 40px;
+}
+
+.gnavCenter {
+  flex: 6;
+}
+
+.gnavList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gnavItem {
+  margin-top: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  color: gray;
+  cursor: pointer;
+}

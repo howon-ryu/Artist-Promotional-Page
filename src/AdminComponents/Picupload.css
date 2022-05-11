@@ -1,0 +1,52 @@
+.f_container {
+  display: flex;
+
+  height: 700px;
+  border: 2px solid black;
+  width: 80%;
+  margin: auto;
+}
+
+.img {
+  background-color: grey;
+  margin-left: 20%;
+  margin-top: 5%;
+  width: 400px;
+  height: 430px;
+}
+
+.down {
+  margin-top: 100px;
+}
+
+.setting {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.upbtn {
+  width: 100px;
+  margin-left: 10px;
+}
+
+/* .plusbtn{
+    margin : auto;
+} */
+
+.p {
+  padding-top: 10px;
+  float: left;
+  border-width: 2px;
+  width: 100px;
+}
+.s {
+  padding-top: 10px;
+  border-width: 2px;
+  width: 100px;
+}
+.wrapper {
+  height: 50px;
+  border-width: 2px;
+
+  display: flex;
+}
